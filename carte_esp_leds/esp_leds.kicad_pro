@@ -55,7 +55,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "items_not_allowed|140600000|55300000|d1e3fc65-b933-4224-9d1c-628a296beae0|00000000-0000-0000-0000-000000000000",
+        "items_not_allowed|146800000|55300000|35713d0e-18e8-4910-a06b-7efbcb8e10f7|00000000-0000-0000-0000-000000000000",
+        "silk_edge_clearance|139850000|54000000|480c5d05-940f-418f-bf77-f5aebbc64faf|15a8ee1c-02ab-43c0-bab4-274a79ca375d",
+        "silk_edge_clearance|147550000|54000000|480c5d05-940f-418f-bf77-f5aebbc64faf|3ec170c1-418b-4c02-9565-80015c094ea7",
+        "text_height|139950000|48900000|86d54e9a-95fc-41bb-b380-fa24e32270bf|00000000-0000-0000-0000-000000000000",
+        "text_height|156800000|60800000|6c688431-952a-4d02-aa3d-8e7b269ba274|00000000-0000-0000-0000-000000000000",
+        "text_height|156900000|64200000|7b478e69-d7a3-408c-8757-a7e5008b2a95|00000000-0000-0000-0000-000000000000",
+        "text_height|156900000|66100000|09494107-8dbe-497b-bfae-50ff2902ec55|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -408,7 +417,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "nano_leds.kicad_pro",
+    "filename": "esp_leds.kicad_pro",
     "version": 1
   },
   "net_settings": {
